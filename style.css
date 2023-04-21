@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    background-color: #a08771;
+    color: #4B543B;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#resultsSection, button {
+    border: solid #DCE2AA;
+    background-color: #B4D2BA;
+    margin: 1em;
+}
+
+#buttonSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
+}
+
+#resultsSection {
+    width: 80%;
+}
+
